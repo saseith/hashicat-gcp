@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/SebastianSeith-training/network/google"
   version = "2.5.0"
   network_name = "main-vpc"
-  project = var.project
+  project_id = var.project
   
   subnets = [
   {
